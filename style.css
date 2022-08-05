@@ -13,14 +13,14 @@ h1{
 }
 
 footer {
-  color: white;
-  font-family: 'Dancing Script', cursive;
-  font-size: 1.5rem;
   margin: 2% auto 0;
 }
 
 p{
   margin-top: 50px;
+  color: white;
+  font-family: 'Dancing Script', cursive;
+  font-size: 1.5rem;
 }
 .dice {
   display: inline-block;
@@ -29,6 +29,12 @@ p{
   font-family: 'Indie Flower', cursive;
   margin-top: 1%;
   padding: 0 2%;
+}
+
+.dice p {
+  font-size: 2rem;
+  color: #4ECCA3;
+  font-family: 'Indie Flower', cursive;
 }
 
 .container{
@@ -46,4 +52,34 @@ p{
 .d-btn:hover{
   color: white;
   background-color: #88304E;
+}
+
+@media(max-width: 1028px) {
+
+  .dice p {
+    font-size: 4rem;
+    color: #4ECCA3;
+    font-family: 'Indie Flower', cursive;
+  }
+
+  p{
+    margin-top: 50px;
+    color: white;
+    font-family: 'Dancing Script', cursive;
+    font-size: 4rem;
+  }
+
+
+  .d-btn{
+    font-size: 4rem;
+    margin-top: 60px;
+    padding: 40px 100px;
+    color: white;
+    background-color: #E23E57;
+  }
+
+  .d-btn:hover{
+    color: white;
+    background-color: #88304E;
+  }
 }
