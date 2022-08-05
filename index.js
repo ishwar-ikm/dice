@@ -1,4 +1,4 @@
-function () {
+function main () {
   var rand = Math.floor(Math.random()*6) + 1;
   var diceimg = "images/dice" + rand + ".png";
   document.querySelectorAll("img")[0].setAttribute("src", diceimg);
