@@ -1,4 +1,4 @@
-function main () {
+document.querySelector("button").addEventListener("click", function () {
   var rand = Math.floor(Math.random()*6) + 1;
   var diceimg = "images/dice" + rand + ".png";
   document.querySelectorAll("img")[0].setAttribute("src", diceimg);
@@ -16,4 +16,4 @@ function main () {
   else{
     document.querySelector("h1").textContent = "Player 2 won 😏";
   }
-}
+})
