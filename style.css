@@ -1,0 +1,45 @@
+body{
+  background-color: #2C3333;
+  text-align: center;
+  margin: 0;
+}
+
+h1{
+  font-family: 'Lobster';
+  font-size: 8rem;
+  margin: 2%;
+  padding: 0;
+  color: #4ECCA3;
+}
+
+footer {
+  color: white;
+  font-family: 'Dancing Script', cursive;
+  font-size: 1.5rem;
+  margin: 2% auto 0;
+}
+.dice {
+  display: inline-block;
+  font-size: 2rem;
+  color: #4ECCA3;
+  font-family: 'Indie Flower', cursive;
+  margin-top: 1%;
+  padding: 0 2%;
+}
+
+.container{
+  margin: 0 auto;
+}
+
+.d-btn{
+  font-size: 1.5rem;
+  margin-top: 40px;
+  padding: 10px 30px;
+  color: white;
+  background-color: #E23E57;
+}
+
+.d-btn:hover{
+  color: white;
+  background-color: #88304E;
+}
