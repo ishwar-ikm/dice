@@ -18,6 +18,10 @@ footer {
   font-size: 1.5rem;
   margin: 2% auto 0;
 }
+
+p{
+  margin-top: 50px;
+}
 .dice {
   display: inline-block;
   font-size: 2rem;
